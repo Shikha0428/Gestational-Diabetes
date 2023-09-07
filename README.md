@@ -33,7 +33,9 @@ Removed Duplicate and non-relevant columns.
 **Types of Noise occurred in data**
 
 Blanks, >, very low and high values, irrelevant date, redundant columns, field data type are not correct.
-Challenges encountered during the data cleaning process
+
+**Challenges encountered during the data cleaning process**
+
 Understanding context of column name from the header, duplicate columns, identifying null/blank values.
 According to GDM dataset 49.46% screened with OGTT and 50.53% screened with GCT method.
  
