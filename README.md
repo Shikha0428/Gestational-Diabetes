@@ -17,8 +17,8 @@ Fasting: <95 mg/dL (5.3 mmol/L)
 3 hours: <140 mg/dL (7.8 mmol/L)
 Here I have taken a sample dataset of 256 columns and 600 rows.
 In this dataset, i have done some initial cleaning in Excel and used Tableau for further analysis.
- **
-Specific steps and approaches to clean the dataset**
+
+** Specific steps and approaches to clean the dataset**
 •	Cleaned irrelevant data by using TRIM, SPLIT, REPLACE, IF, UPPER functions.
 •	Filled blanks in Text columns to NA, Date columns to 01/01/2099, Boolean and Numeric column to -1.
 •	Deleted 42 records, because the target column “Dx with GDM” was blank for these entries.
@@ -30,8 +30,8 @@ Blanks, >, very low and high values, irrelevant date, redundant columns, field d
 Challenges encountered during the data cleaning process
 Understanding context of column name from the header, duplicate columns, identifying null/blank values.
 According to GDM dataset 49.46% screened with OGTT and 50.53% screened with GCT method.
- **
-Key Findings and Outcome**
+ 
+ **Key Findings and Outcome**
 Initial dataset contained 600 rows and 256 columns.After cleaning, the dataset was reduced to 558 rows and 153 columns, found 74 people diagnosed with GDM.
  
 Identify “Dx with GDM” as the target column.
